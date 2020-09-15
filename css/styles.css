@@ -24,8 +24,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bd5d38;
-  --secondary: #6c757d;
+  --primary: #ec0505;
+  --secondary: #666666;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -6097,7 +6097,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #4d4c4b !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9799,11 +9799,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #000000 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #444444 !important;
 }
 
 .text-secondary {
@@ -10064,7 +10064,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(255, 255, 255, 0.945);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10100,7 +10100,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #497550;
 }
 
 .dev-icons {
