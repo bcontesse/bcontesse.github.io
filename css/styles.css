@@ -10009,8 +10009,8 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 3.375rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
   }
 }
 h1,
@@ -10142,8 +10142,9 @@ section.resume-section .resume-section-content {
 
 .bg-photo::after {
   content: "";
-  background-image: url(../assets/img/professional.jpg);
+  background-image: url(../assets/img/professional-wide.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -10161,7 +10162,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 50vh;
+    min-height: 70vh;
   }
 }
 @media (min-width: 992px) {
