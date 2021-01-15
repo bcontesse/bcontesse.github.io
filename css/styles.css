@@ -10136,6 +10136,12 @@ section.resume-section .resume-section-content {
   text-align: center;
 }
 
+.img-profile {
+  float: left;
+  padding-right: 2rem;
+  /* padding-bottom: 1rem; */
+}
+
 .bg-photo {
   position: relative;;
 }
