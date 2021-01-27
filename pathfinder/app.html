@@ -43,6 +43,22 @@
        </div>
      </nav>
     </div>
+    <div id="tutorial">
+      <div id='tutorialText'>
+        <h3>Welcome to the Pathfinding Visualizer!</h3>
+        <p>If you feel confident that you understand what's going on, feel free to click the 'Get Started' button.</p>
+        <p>Clicking 'Algorithms' will show you all available algorithms to simulate.</p>
+        <p>BFS and DFS are unweighted searches, meaning that they do not consider the cost of making moves.</p>
+        <p>Dijkstra's, A-Star, and Greedy Best First Search are weighted searches, meaning they will take the cost of a path into account.</p>
+        <p>You can drag and drop the start and target nodes anywhere on the grid for the algorithms to figure out.</p>
+        <p>Clicking within the grid will cause walls to appear, which the algorithms will have to work around.</p>
+        <p>If you have a weighted algorithm selected, you may place gates by typing 'G' and clicking in the grid. These gates are weighted heavily, to simulate the cost of passing through. Walls can be selected by pressing 'G' again.</p>
+        <p>The speed of the simulation can be controlled from the 'Speed' dropdown. After an algorithm is completed, you can move the start or target nodes and the search as well as the shortest path will update live.</p>
+        <p>The 'Clear' buttons will remove specific components of the visualization if needed.</p>
+        <p>That's it! Good luck and get learning!</p>
+        <button id="getStartedButton" class="btn btn-default navbar-btn" type="button">Get Started</button>
+      </div>
+    </div>
     <div id='mainGrid'>
       <div id='mainText'>
         <ul>

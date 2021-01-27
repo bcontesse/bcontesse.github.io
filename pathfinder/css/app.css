@@ -158,3 +158,36 @@
     display: inline-block;
     list-style: none;
   }
+
+#tutorial {
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 1);
+    width: 70%;
+    height: 70%;
+    border: 2px solid #34495e;
+    border-radius: 4px;
+    text-align: center;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#tutorialText {
+    margin: auto;
+    width: 90%;
+}
+
+#getStartedButton {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
