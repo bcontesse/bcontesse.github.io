@@ -25,6 +25,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
@@ -58,45 +59,92 @@
             </section>
             <hr class="m-0" />
             <!-- Projects -->
-            <section class="resume-section" id="experience">
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
+                    <h2 class="mb-5 title-centered">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Pathfinder Visualizer</h3>
-                            <p><a href="pathfinder/app.html">Pathfinder App</a></p>
-                            <p>At school, I'd always heard of algorithms that used  </p>
+                            <a href="pathfinder/app.html"><img class="img-fluid article-image" src="assets/img/pathfinder-pic.png" alt=""/></a>
+                            <p class='project-article'>
+                                This particular project was born out of necessity while studying how different search algorithms conduct their searches.
+                                It began as a though experiment to see if I could implement the most common search algorithms in Python.
+                                However, it became difficult to understand if my implementations, especially for A*star, were working correctly by just printing out results.
+                            </p>
+                            <p>
+                                The answer was to develop an HTML/Javascript visualization of the different searches in order to test and visually confirm the algorithms.
+                                By sharing this app on my website, I hope to increase other people's understanding of these algorithms, especially anyone studying for technical interviews.
+                            </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Sigep Coco Booth</h3>
-                            <p>Award winning booth.</p>
+                            <div class = video-wrapper>
+                                <iframe src="https://www.youtube.com/embed/PwkFcV-5PcA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p class='project-article'>
+                                Booth is a Carnegie Mellon tradition that consists of constructing a two-story wooden building over the course of one week.
+                                This building is then decorated according to a specific theme, in this case the Disney movie Coco, for visitors to walk through and experience.
+                                For my fraternity, I was the head Booth Chair in charge of organizing the design and construction of this massive undertaking, a process which took over 6 months.
+                                I handled budgeting for materials, fundraising, organizing build sessions, as well as guiding the design of each room and the overall structure.
+                            </p>
+                            <p>
+                                Our booth consisted of multiple themed roomes including an ofrenda, a plaza, a pathway to the 'afterlife', and two concerts.
+                                The building had running electricity, music, a guitar-controlled simon says game and mutliple interactive buttons to weave the Coco narrative.
+                                Of all fraternity booths, ours won first place and was arguably the most visited and talked-about booth of the event. 
+                            </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2019</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Galage 2.0</h3>
-                            <p>Python game.</p>
+                            <div class = video-wrapper>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/dVUHdcyVXZg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p class='project-article'>
+                                For my introductory programming course we were given freedom to create whatever we wanted using Python as a final project.
+                                Since I have always been transfixed by videogames, I decided to try creating one myself using the building blocks of one of my favorites.
+                                Though Galaga was big in the 80s, it has special importance for me since it was a game that my brother showed me and we would play for hours whenever we would find it.
+                            </p>
+                            <p>
+                                Using Pygame and a plethora of assets from other games, I created my own Galaga experience.
+                                Some highlights that differentiate it from the original is the ability to: upgrade your ship, have simultaneous players, and control the aliens and their paths against an AI ship.
+                                This was my way of creating an experience my brother and I could truly play together instead of just taking turns.
+                            </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2016</span></div>
                     </div>
                 </div>
             </section>
+            <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2 class="mb-5 title-centered">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Optimization Engineer</h3>
                             <div class="subheading mb-3">ExxonMobil</div>
-                            <p>• Develop Python toolset used to create linear-derived models, which leverages Pandas, Numpy and Pyodbc for SQL connections
-                                • Design and implement SQL structure for model data storage to create a centralized repository and streamline work processes
-                                • Lead optimization model build for future units in Singapore, collaborating with global team
-                                • Enable others to containerize and launch web applications in a cloud environment using Docker and OpenShift</p>
+                            <ul class="fa-ul mb-3">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Develop Python toolset used to create linear-derived models, which leverages Pandas, Numpy and Pyodbc for SQL connections</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Design and implement SQL structure for model data storage to create a centralized repository and streamline work processes</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Restructured the the teams software development strategy in order to use Git and Virtual Environments effectively</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Lead optimization model build for future units in Singapore, collaborating with global team</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Enable others to containerize and launch web applications in a cloud environment using Docker and OpenShift</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2019 - Present</span></div>
                     </div>
@@ -104,9 +152,17 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Dynamic Simulations Intern</h3>
                             <div class="subheading mb-3">ExxonMobil</div>
-                            <p>• Developed visually accurate simulator alarm display screens with realistic responses using HTML/CSS and Visual Basic
-                                • Decreased time needed to create and update display screens from 4 hours to 1 hour by writing a Python automation script
-                                • Increased engagement for introduction engineering course by designing interactive engineering lessons</p>
+                            <ul class="fa-ul mb-3">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Developed visually accurate simulator alarm display screens with realistic responses using HTML/CSS and Visual Basic</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Decreased time needed to create and update display screens from 4 hours to 1 hour by writing a Python automation script</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Increased engagement for introduction engineering course by designing interactive engineering lessons</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2018 - August 2018</span></div>
                     </div>
@@ -114,9 +170,17 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Dynamic Simulations Intern</h3>
                             <div class="subheading mb-3">Air Products and Chemicals</div>
-                            <p>• Improved UI of performance report generator written in MATLAB to assess active plant controllers
-                                • Upgraded existing plant controllers using AspenTech to analyze controller matrices
-                                • Researched plant conditions in order to develop gas evolution predictions to save costs</p>
+                            <ul class="fa-ul mb-3">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Improved UI of performance report generator written in MATLAB to assess active plant controllers</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Upgraded existing plant controllers using AspenTech to analyze controller matrices</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Researched plant conditions in order to develop gas evolution predictions to save costs</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2017 - August 2017</span></div>
                     </div>
@@ -124,9 +188,17 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Research Assistant</h3>
                             <div class="subheading mb-3">Carnegie Mellon Complex Fluids Lab</div>
-                            <p>• Wrote MATLAB program to model heat transfer through multiple layers including a phase change material
-                                • Built working tension analyzer by combining a transducer to assess pressure and a high-magnification camera
-                                • Adapted Labview program to collect and analyze tensiometer data</p>
+                            <ul class="fa-ul mb-3">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Wrote MATLAB program to model heat transfer through multiple layers including a phase change material</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Built working tension analyzer by combining a transducer to assess pressure and a high-magnification camera</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check-circle"></i></span>
+                                    Adapted Labview program to collect and analyze tensiometer data</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2016 - December 2017</span></div>
                     </div>
@@ -136,7 +208,7 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+                    <h2 class="mb-5 title-centered">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Carnegie Mellon University</h3>
@@ -177,7 +249,7 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
+                    <h2 class="mb-5 title-centered">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="fa-ul mb-0">
                         <li class="large-body-text">
@@ -235,61 +307,15 @@
             <!-- Interests-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">About Me</h2>
+                    <h2 class="mb-5 title-centered">About Me</h2>
                     <img class="img-fluid img-profile mx-auto" src="assets/img/me.jpg" alt="" />
                     <p>Hi! My name is Ben Contesse and I like programming. Specifically, I enjoy coding solutions to problems that makes people’s lives easier. In my current role as an Optimization Engineer at ExxonMobil, I’ve had a great opportunity to do exactly that. My day-to-day work involves developing tools that make use of Python and SQL to quickly generate and analyze optimization models.</p>
                     <p>Recently, I graduated from Carnegie Mellon University with a B.S. in Chemical Engineering and a Concentration in Computer Science. It was in my freshman year that I learned how to code, and I haven’t stopped since then. </p>
                     <p>When I’m not coding something to solve a problem, I enjoy creating things to entertain others. I’ve always spent a ton of time playing video games, so trying to develop my own was the logical next step. Entertaining others has also extended to creating playlists on Spotify, hosting others for game nights, and even designing and building my version of Disney’s Coco.</p>
-                    <p class="mb-0">I have a drive to create and am looking for that next project to take on. I hope to grow into more opportunities that allow my skillset to flourish in order to tackle more complex and interesting issues. Feel free to reach out to me <a href="mailto:benjacontesse@gmail.com">here</a>.</p>
+                    <p class="mb-0">I have a drive to create and am looking for that next project to take on. I hope to grow into more opportunities that allow my skillset to flourish in order to tackle more complex and interesting issues. Feel free to reach out to me <a href="mailto:benjacontesse@gmail.com">here</a>!</p>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Awards-->
-            <!-- <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section> -->
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
