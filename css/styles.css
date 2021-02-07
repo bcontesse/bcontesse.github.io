@@ -10245,3 +10245,12 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+@media (min-width: 1550px) {
+  section.resume-section {
+    padding-left: 23rem;
+    padding-right: 23rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
