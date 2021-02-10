@@ -163,8 +163,8 @@
     position: absolute;
     z-index: 3;
     background-color: rgba(255, 255, 255, 1);
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     border: 2px solid #34495e;
     border-radius: 4px;
     text-align: center;
@@ -190,4 +190,19 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 725px) {
+    #tutorial {
+        font-size: 13px;
+        width: 90%;
+        height: 95%;
+    }
+}
+
+@media (min-width: 1030px) {
+    #tutorial {
+        width: 70%;
+        height: 70%;
+    }
 }
